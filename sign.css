@@ -1,0 +1,83 @@
+body
+{
+	background-image:url("Image/banner-2-bg-2.jpg");
+}
+body
+{
+	position:relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center; 
+    background-size: cover;
+}
+
+#regs input
+{
+	border:2px solid rgb(255,255,255,.2);
+	font-size:18px;
+	font-weight:bold;
+	padding:10px;
+	color:white;
+	border-radius:50px;
+	width:60%; 
+    margin-top:10px;
+	position:relative;
+	left:65;
+}
+#regs input:hover
+{
+	background-color:#7211b8;
+	color:white;
+}
+	
+  .form-box
+{
+	position:relative;
+    bottom:30;
+	right:10;
+    border:2px solid rgb(255,255,255,.2);
+	backdrop-filter:blur(10px);
+	background:transparent;
+	background-repeat:norepeat;
+	width:380px;
+	margin:18vh auto 0 auto;
+	padding:15px;
+	font-size:15px;
+	font-weight:;
+}
+.form-box h1
+{
+	font-family:Readex Pro;
+	text-align:center;
+	color:white;
+	
+}
+	
+.input-field
+{
+
+	margin: 18px;
+	border-radius:3px;
+	border:2px solid rgb(255,255,255,.2);
+	display:flex;
+	align-items:center;
+}
+input
+{
+	width:100%;
+	background:transparent;
+	border:0;
+	outline:0;
+	padding:15px 18px;
+	color:white;
+
+}
+.input-field i
+{
+	margin-left:10px;
+	color:white;
+}
+.input-field input::placeholder
+{
+	color:white
+}
